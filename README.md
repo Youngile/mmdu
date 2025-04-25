@@ -39,6 +39,9 @@ Installation
 ### cargo install
 
 ```bash
+git clone https://github.com/idiv-biodiversity/mmdu.git
+cd mmdu
+./rustup-init.sh
 rustup default stable
 cargo install mmdu
 ```
@@ -46,8 +49,6 @@ cargo install mmdu
 ### from source
 
 ```bash
-git clone https://github.com/idiv-biodiversity/mmdu.git
-cd mmdu
 cargo build --release
 install -Dm755 target/release/mmdu ~/bin/mmdu
 ```
