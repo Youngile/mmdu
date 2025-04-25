@@ -39,6 +39,7 @@ Installation
 ### cargo install
 
 ```bash
+rustup default stable
 cargo install mmdu
 ```
 
